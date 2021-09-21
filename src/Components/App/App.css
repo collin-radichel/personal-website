@@ -1,3 +1,8 @@
+:root {
+  --main-color: rgb(235, 27, 27);
+  --font-color: rgb(238, 238, 238);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -14,6 +19,20 @@ body {
 ul {
   display: flex;
   list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--font-color);
+  width: 50vw;
+}
+
+svg {
+  fill: var(--font-color);
+  width: 40px;
+  height: 40px;
+  transition: fill 1s ease;
+
 }
 
 .name-container {
